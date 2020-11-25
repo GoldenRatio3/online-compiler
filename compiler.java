@@ -3,7 +3,7 @@ import java.io.*;
 
 class compiler {
   public static void main(String[] args) throws IOException, InterruptedException {
-    String file = "example.java";
+    String file = (args.length > 0) ? args[0] : "example.java";
     String line;
     // compile program
     JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
