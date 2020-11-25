@@ -14,3 +14,12 @@ NOTE: compiler has 1 optional argument, if set will compile and run said file ot
  - Support for multiple languages
  - Spin up in seperate docker container rather then seperate process
 
+### Prerequistes
+ - Java 7 or greater
+
+## Contributing
+Feel free to contribute by submitting pull requests.
+
+## License
+This project is licensed under the MIT License - Read the LICENSE.md file
+
